@@ -9,4 +9,5 @@ import java.util.Optional;
 @Repository
 public interface ProductRepository extends CrudRepository<ProductEntity, Long> {
     Optional<ProductEntity> findByProductId(String pId);
+    long deleteByProductId(String pId);
 }

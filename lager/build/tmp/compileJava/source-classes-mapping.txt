@@ -4,19 +4,25 @@ com/example/lager/model/request/ProductDetailsRequestModel.java
  com.example.lager.model.request.ProductDetailsRequestModel
 com/example/lager/LagerApplication.java
  com.example.lager.LagerApplication
-com/example/lager/service/ProductService.java
- com.example.lager.service.ProductService
+com/example/lager/repository/entity/ProductEntity.java
+ com.example.lager.repository.entity.ProductEntity
 com/example/lager/shared/ProductDto.java
  com.example.lager.shared.ProductDto
-com/example/lager/controller/ProductController.java
- com.example.lager.controller.ProductController
+com/example/lager/shared/Util.java
+ com.example.lager.shared.Util
 com/example/lager/controller/WelcomeController.java
  com.example.lager.controller.WelcomeController
 com/example/lager/repository/ProductRepository.java
  com.example.lager.repository.ProductRepository
-com/example/lager/repository/entity/ProductEntity.java
- com.example.lager.repository.entity.ProductEntity
-com/example/lager/shared/Util.java
- com.example.lager.shared.Util
+com/example/lager/service/ProductService.java
+ com.example.lager.service.ProductService
 com/example/lager/service/impl/ProductServiceImpl.java
  com.example.lager.service.impl.ProductServiceImpl
+com/example/lager/exception/NotFoundException.java
+ com.example.lager.exception.NotFoundException
+com/example/lager/exception/BadRequestException.java
+ com.example.lager.exception.BadRequestException
+com/example/lager/controller/ProductController.java
+ com.example.lager.controller.ProductController
+com/example/lager/controller/ExceptionHandlerControllerAdvice.java
+ com.example.lager.controller.ExceptionHandlerControllerAdvice
